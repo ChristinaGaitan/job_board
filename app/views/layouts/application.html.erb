@@ -2,17 +2,17 @@
 <html>
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112380968-1"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146589222-1"></script>
+
   <% if Rails.env == "production"  %>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'UA-112380968-1');
+      gtag('config', 'UA-146589222-1');
     </script>
   <% end %>
-
   <title>JobBoard</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
